@@ -1,0 +1,38 @@
+body {
+  overflow: hidden;
+}
+
+.dragon {
+  height: 50px;
+  width: 50px;
+  background-image: url(dragon.png);
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+}
+
+.cactus {
+  height: 50px;
+  width: 50px;
+  background-image: url(cacti.png);
+  position: absolute;
+  bottom: 0;
+}
+
+.display {
+  position: absolute;
+  bottom: 0;
+  height: 200px;
+  width: 100%;
+  background-image: url(background.png);
+  animation: move 500s linear infinite;
+}
+
+@keyframes move {
+  from {
+    background-position: 7000%;
+  }
+  to {
+    background-position: 0%;
+  }
+}
