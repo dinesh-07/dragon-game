@@ -1,1 +1,4 @@
-# dragon-game
+# dragon game demo
+
+![](dragon-game.png) 
+
